@@ -8,9 +8,15 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
+import com.mop_memories.android.common.BaseFragment
+import com.mop_memories.android.common.Presenter
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_main.*
+import javax.inject.Inject
 
-class MainFragment : Fragment(R.layout.fragment_main) {
+class MainFragment : BaseFragment(R.layout.fragment_main) {
+    override var presenter: Presenter? = null
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 

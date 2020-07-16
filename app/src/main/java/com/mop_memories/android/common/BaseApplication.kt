@@ -1,7 +1,7 @@
-package com.mop_memories.android
+package com.mop_memories.android.common
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class MainApplication: Application() {}
+class BaseApplication: Application() {}
