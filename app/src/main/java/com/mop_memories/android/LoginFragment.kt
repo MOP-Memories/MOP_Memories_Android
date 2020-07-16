@@ -10,26 +10,11 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class LoginFragment : Fragment() {
-    @Inject lateinit var string: String
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
-    }
-
+class LoginFragment : Fragment(R.layout.fragment_login) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        println(string)
         view.findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.loginButton)
             .setOnClickListener {findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToMainFragment())}
-
     }
-
-
-
 }

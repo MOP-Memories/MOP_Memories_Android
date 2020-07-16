@@ -10,16 +10,8 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 
-class SplashFragment : Fragment() {
+class SplashFragment : Fragment(R.layout.fragment_splash) {
     var navControler: NavController? = null
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-
-        return inflater.inflate(R.layout.fragment_splash, container, false)
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         findNavController().navigate(SplashFragmentDirections.actionSplashFragmentToLoginFragment())
