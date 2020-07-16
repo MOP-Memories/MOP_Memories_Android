@@ -8,29 +8,29 @@
 
     <fragment
         android:id="@+id/feedFragment"
-        android:name="com.mop_memories.android.FeedFragment"
+        android:name="com.mop_memories.android.features.feed.FeedFragment"
         android:label="Feed"
         tools:layout="@layout/fragment_feed"
         
         />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.mop_memories.android.ProfileFragment"
+        android:name="com.mop_memories.android.features.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.mop_memories.android.SearchFragment"
+        android:name="com.mop_memories.android.features.search.SearchFragment"
         android:label="Search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/notificationsFragment"
-        android:name="com.mop_memories.android.NotificationsFragment"
+        android:name="com.mop_memories.android.features.notifications.NotificationsFragment"
         android:label="Notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/cameraFragment"
-        android:name="com.mop_memories.android.CameraFragment"
+        android:name="com.mop_memories.android.features.camera.CameraFragment"
         android:label="Camera"
         tools:layout="@layout/fragment_camera" />
 </navigation>

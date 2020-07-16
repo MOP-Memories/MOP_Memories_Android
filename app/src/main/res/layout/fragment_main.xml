@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
 
+<RelativeLayout
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-        >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-       <androidx.appcompat.widget.Toolbar
-           android:id="@+id/actionBar"
-           android:background="@color/colorPrimaryDark"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_alignParentTop="true"/>
+           <androidx.appcompat.widget.Toolbar
+               android:id="@+id/actionBar"
+               android:background="@color/colorPrimaryDark"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"/>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNavMenu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
 
-            android:layout_alignParentBottom="true"
-            app:menu="@menu/bottom_navigation_menu"
-            app:labelVisibilityMode="unlabeled"
-            />
+                android:layout_alignParentBottom="true"
+                app:menu="@menu/bottom_navigation_menu"
+                app:labelVisibilityMode="unlabeled"
+                />
 
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/bottom_nav_host_fragment"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/bottomNavMenu"
-            android:layout_below="@id/actionBar"
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/bottom_nav_host_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/bottomNavMenu"
+                android:layout_below="@id/actionBar"
 
-            app:defaultNavHost="true"
-            app:navGraph="@navigation/bottom_nav_graph" />
-
-
-</RelativeLayout>
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/bottom_nav_graph" />
+    </RelativeLayout>
