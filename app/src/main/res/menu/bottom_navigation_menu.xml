@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/feedFragment"
+        android:title="Feed"
+        android:icon="@drawable/ic_menu"/>
+
+    <item android:id="@id/searchFragment"
+        android:title="Search"
+        android:icon="@drawable/ic_search"/>
+
+    <item android:id="@id/cameraFragment"
+        android:title="Camera"
+        android:icon="@drawable/ic_plus_circle"/>
+
+    <item android:id="@id/notificationsFragment"
+        android:title="Notifications"
+        android:icon="@drawable/ic_bell"/>
+
+    <item android:id="@id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"/>
+
+
+
+</menu>
