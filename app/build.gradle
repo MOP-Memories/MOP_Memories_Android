@@ -4,6 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: "androidx.navigation.safeargs.kotlin"
 apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -53,10 +54,35 @@ dependencies {
 
     def retrofit_version = "2.9.0"
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
 
     def okhttp_version = "4.8.0"
     implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
 
     def moshi_version = "2.4.0"
     implementation "com.squareup.retrofit2:converter-moshi:$moshi_version"
+
+    def firebase_core_version = "17.4.4"
+    implementation "com.google.firebase:firebase-analytics:$firebase_core_version"
+    implementation "com.google.firebase:firebase-core:$firebase_core_version"
+
+    def firebase_auth_version = "19.3.2"
+    implementation "com.google.firebase:firebase-auth:$firebase_auth_version"
+    implementation "com.google.firebase:firebase-auth-ktx:$firebase_auth_version"
+
+    def play_services_version = "18.1.0"
+    implementation "com.google.android.gms:play-services-auth:$play_services_version"
+
+    def firebase_firestore_version = "21.5.0"
+    implementation "com.google.firebase:firebase-firestore-ktx:$firebase_firestore_version"
+
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.19'
+
 }

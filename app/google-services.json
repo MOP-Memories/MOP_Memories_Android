@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "695182803253",
+    "firebase_url": "https://mopmemories-a8f4b.firebaseio.com",
+    "project_id": "mopmemories-a8f4b",
+    "storage_bucket": "mopmemories-a8f4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695182803253:android:9b6212c732eb9162124c7c",
+        "android_client_info": {
+          "package_name": "com.mop_memories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695182803253-g5c6v7u5tbp6472u0vamgjmrl4cf0k2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mop_memories",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "695182803253-r1j0fr048t9tbij7l3t5dluh65bui98f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mop_memories",
+            "certificate_hash": "eb1d38c429139fa42e049271bf7d5c122d2baee1"
+          }
+        },
+        {
+          "client_id": "695182803253-guilqtnc5bj3046qtol0n57ugtn5d3dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWvuiQSzEaaA3O5a-5PxHT8k-dwIENDzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695182803253-guilqtnc5bj3046qtol0n57ugtn5d3dm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "695182803253-k4ohbjedvvrlqu17m75e7d6jtffceri7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.MOP-Memories"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695182803253:android:1c11b5ec99623080124c7c",
+        "android_client_info": {
+          "package_name": "com.mop_memories.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695182803253-guilqtnc5bj3046qtol0n57ugtn5d3dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWvuiQSzEaaA3O5a-5PxHT8k-dwIENDzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695182803253-guilqtnc5bj3046qtol0n57ugtn5d3dm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "695182803253-k4ohbjedvvrlqu17m75e7d6jtffceri7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.MOP-Memories"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

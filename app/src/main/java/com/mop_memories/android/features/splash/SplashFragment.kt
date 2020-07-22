@@ -17,10 +17,9 @@ class SplashFragment : BaseFragment(R.layout.fragment_splash), SplashView {
     override lateinit var presenter: SplashPresenter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        findNavController().navigate(SplashFragmentDirections.actionSplashFragmentToMainFragment())
-//        presenter.cilentLogin()
-
         super.onViewCreated(view, savedInstanceState)
+
+        presenter.cilentLogin()
     }
 
     override fun loginSuccess() {
