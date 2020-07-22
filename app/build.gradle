@@ -69,7 +69,7 @@ dependencies {
     def firebase_auth_version = "19.3.2"
     implementation "com.google.firebase:firebase-auth:$firebase_auth_version"
     implementation "com.google.firebase:firebase-auth-ktx:$firebase_auth_version"
-    
+
     def play_services_version = "18.1.0"
     implementation "com.google.android.gms:play-services-auth:$play_services_version"
 
